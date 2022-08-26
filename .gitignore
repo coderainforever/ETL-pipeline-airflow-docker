@@ -1,0 +1,4 @@
+.backup_files
+.ipynb_checkpoints
+.venv
+logs
