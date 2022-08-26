@@ -14,7 +14,7 @@ def _extract():
     df.to_csv("data/covid_db_original_{}.csv".format(date.today().strftime("%Y%m%d")))
 _extract()
 
-# Transform: Transforming the data using pandas
+# Transform: Transforming the data using pandas and saving to a new .csv file
 
 def _transform():
     df1 = pd.read_csv("data/covid_db_original_{}.csv".format(date.today().strftime("%Y%m%d")))
