@@ -1,2 +1,2 @@
-# ETL-pipeline-airflow-docker
-ETL Pipeline using Airflow (Extract JSON data and ingest to SQLite Database)
+# ETL-pipeline-airflow-docker-container
+ETL Pipeline using Airflow Dag (Extract JSON data and ingest to SQLite Database)
